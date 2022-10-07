@@ -42,11 +42,15 @@ The NHANES-KG is deployed using [HADatAc](http://hadatac.org), a scientific know
   $ docker-compose up -d
   ```
 
-4. Point your web browser to [http://localhost:9000](http://localhost:9000)
+4. Point your web browser to [http://localhost:9000](http://localhost:9000) to confirm everything is running as expected. You should see HADatAc's initial dashboard with some numbers about the NHANES-KG.
 
 <small>
 In most Linux systems `localhost` will be used. However, in MacOS or Windows hosts you will need to check your environment as the Docker containers might be running virtualized. In these cases, it may be required to know the IP for the virtual machine.
 </small>
+
+### First steps: Interacting with NHANES-KG
+
+Follow this [tutorial]({{ site.baseurl }}{% link first-steps.md %}).
 
 ### Manual deployment: Deploy NHANES-KG in a fresh HADatAc
 
