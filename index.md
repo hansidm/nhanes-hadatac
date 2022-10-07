@@ -28,59 +28,29 @@ The NHANES-KG is deployed using [HADatAc](http://hadatac.org), a scientific know
 ### Quick start: Run NHANES-HADatAc Docker containers
 
 1. Clone our Github repo somewhere in your machine
-
-```bash
-$ git clone https://github.com/tetherless-world/nhanes-hadatac.git
-```
+  ```bash
+  $ git clone https://github.com/tetherless-world/nhanes-hadatac.git
+  ```
 
 2. Navigate to the docker compose file path
-
-```bash
-$ cd nhanes-hadatac/docker/
-```
+  ```bash
+  $ cd nhanes-hadatac/docker/
+  ```
 
 3. Start the NHANES-KG services using docker compose up
-
-```bash
-$ docker-compose up -d
-```
-
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
-
-### Local installation: Use the gem-based theme
-
-1. Install the Ruby Gem
   ```bash
-  $ gem install just-the-docs
-  ```
-  ```yaml
-  # .. or add it to your Jekyll site’s Gemfile
-  gem "just-the-docs"
+  $ docker-compose up -d
   ```
 
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-  ```yaml
-  theme: "just-the-docs"
-  ```
+4. Point your web browser to [http://localhost:9000](http://localhost:9000)
 
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-  ```bash
-  $ bundle exec just-the-docs rake search:init
-  ```
+<small>
+In most Linux systems `localhost` will be used. However, in MacOS or Windows hosts you will need to check your environment as the Docker containers might be running virtualized. In these cases, it may be required to know the IP for the virtual machine.
+</small>
 
-3. Run your local Jekyll server
-  ```bash
-  $ jekyll serve
-  ```
-  ```bash
-  # .. or if you're using a Gemfile (bundler)
-  $ bundle exec jekyll serve
-  ```
+### Manual deployment: Deploy NHANES-KG in a fresh HADatAc
 
-
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
-
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+An in-depth guide for this will be available soon.
 
 ### Configure Just the Docs
 
