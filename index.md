@@ -50,7 +50,7 @@ In most Linux systems `localhost` will be used. However, in MacOS or Windows hos
 
 ### First steps: Interacting with NHANES-KG
 
-Follow this [tutorial]({{ site.baseurl }}{% link first-steps.md %}).
+Follow this [tutorial]({{ site.url }}{% link first-steps.md %}).
 
 ### Manual deployment: Deploy NHANES-KG in a fresh HADatAc
 
