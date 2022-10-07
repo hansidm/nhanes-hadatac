@@ -1,6 +1,6 @@
 # _config.yml
 
-title: "Jekyll Actions Demo"
+title: "NHANES Knowledge Graph"
 baseurl: /nhanes-hadatac
 
 remote_theme: just-the-docs/just-the-docs

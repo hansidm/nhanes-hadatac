@@ -27,10 +27,22 @@ The NHANES-KG is deployed using [HADatAc](http://hadatac.org), a scientific know
 
 ### Quick start: Run NHANES-HADatAc Docker containers
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
+1. Clone our Github repo somewhere in your machine
 
-```yaml
-remote_theme: just-the-docs/just-the-docs
+```bash
+$ git clone https://github.com/tetherless-world/nhanes-hadatac.git
+```
+
+2. Navigate to the docker compose file path
+
+```bash
+$ cd nhanes-hadatac/docker/
+```
+
+3. Start the NHANES-KG services using docker compose up
+
+```bash
+$ docker-compose up -d
 ```
 
 <small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
