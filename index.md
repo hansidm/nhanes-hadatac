@@ -56,26 +56,21 @@ Follow this [tutorial]({{ site.url }}{% link first-steps.md %}).
 
 An in-depth guide for this will be available soon.
 
-### Configure Just the Docs
-
-- [See configuration options]({{ site.baseurl }})
-
 ---
-
-## About the project
-
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
 
 ### License
 
-Just the Docs is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt).
+NHANES-KG is distributed by an [MIT license](https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt).
 
 ### Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
+We welcome contributions to the NHANES-KG. If you use (or plan to use) NHANES data, we would love to know so we can make sure that data you need is part of NHANES-KG. The primary way of interaction is using Github issues.
 
-#### Thank you to the contributors of Just the Docs!
+### Citation
+
+If NHANES-KG helps you achieve any publishable results, please cite us using:
+
+### Thank you to the contributors of NHANES-KG!
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
@@ -84,9 +79,3 @@ email, or any other method with the owners of this repository before making a ch
   </li>
 {% endfor %}
 </ul>
-
-### Code of Conduct
-
-Just the Docs is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
