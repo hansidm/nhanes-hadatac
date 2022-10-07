@@ -1,0 +1,26 @@
+{"0": {
+    "doc": "First steps",
+    "title": "First steps",
+    "content": " ",
+    "url": "/nhanes-hadatac/first-steps.html",
+    "relUrl": "/first-steps.html"
+  },"1": {
+    "doc": "Home",
+    "title": "NHANES-KG: The National Health and Nutrition Examination Surveys Knowledge Graph",
+    "content": "This is the official website for all things related to the NHANES Knowledge Graph built by the Tetherless World Constellation at Rensselaer Polytechnic Institute. Get started now View it on GitHub . ",
+    "url": "/nhanes-hadatac/#nhanes-kg-the-national-health-and-nutrition-examination-surveys-knowledge-graph",
+    "relUrl": "/#nhanes-kg-the-national-health-and-nutrition-examination-surveys-knowledge-graph"
+  },"2": {
+    "doc": "Home",
+    "title": "Getting started",
+    "content": "Dependencies . The NHANES-KG is deployed using HADatAc, a scientific knowledge graph framework. In its turn, HADatAc is more easily deployed using Docker. While you are welcome to build the NHANES-KG from scratch using all the provided data and metadata, luckily, we have pre-built Docker images with NHANES-KG for you. Therefore, you’ll only need the following to begin: . | Docker Engine | Docker Compose | Git - you most likely already have this one. | . Quick start: Run NHANES-HADatAc Docker containers . | Clone our Github repo somewhere in your machine $ git clone https://github.com/tetherless-world/nhanes-hadatac.git . | Navigate to the docker compose file path $ cd nhanes-hadatac/docker/ . | Start the NHANES-KG services using docker compose up $ docker-compose up -d . | Point your web browser to http://localhost:9000 to confirm everything is running as expected. You should see HADatAc’s initial dashboard with some numbers about the NHANES-KG. | . In most Linux systems localhost will be used. However, in MacOS or Windows hosts you will need to check your environment as the Docker containers might be running virtualized. In these cases, it may be required to know the IP for the virtual machine. First steps: Interacting with NHANES-KG . Follow this tutorial. Manual deployment: Deploy NHANES-KG in a fresh HADatAc . An in-depth guide for this will be available soon. License . NHANES-KG is distributed by an MIT license. Contributing . We welcome contributions to the NHANES-KG. If you use (or plan to use) NHANES data, we would love to know so we can make sure that data you need is part of NHANES-KG. The primary way of interaction is using Github issues. Citation . If NHANES-KG helps you achieve any publishable results, please cite us using: . Thank you to the contributors of NHANES-KG! . ",
+    "url": "/nhanes-hadatac/#getting-started",
+    "relUrl": "/#getting-started"
+  },"3": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/nhanes-hadatac/",
+    "relUrl": "/"
+  }
+}
