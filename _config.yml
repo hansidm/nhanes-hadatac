@@ -1,6 +1,7 @@
 # _config.yml
 
 title: "Jekyll Actions Demo"
+baseurl: https://hansidm.github.io/nhanes-hadatac/
 
 remote_theme: just-the-docs/just-the-docs
 plugins:
